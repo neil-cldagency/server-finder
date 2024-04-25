@@ -1,0 +1,19 @@
+{
+    "name": "neilanderson/server-finder",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "neilanderson\\ServerFinder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Neil Anderson",
+            "email": "neil@cld.agency"
+        }
+    ],
+    "require": {
+        "spatie/dns": "^2.6",
+        "symfony/var-dumper": "^7.0"
+    }
+}

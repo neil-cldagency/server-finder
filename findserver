@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+require_once './vendor/autoload.php';
+
+$opts  = getopt('l:');
+
+$finder = new \neilanderson\ServerFinder\Finder(
+    $opts['l'] ?? null
+);
+
+$finder->find($argv[$argc - 1]);
